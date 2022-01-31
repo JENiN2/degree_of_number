@@ -7,7 +7,7 @@ y_values = [x**get_y for x in x_values]
 plt.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Blues, edgecolors=None, s=50)
 
 # Назначение заголовка диаграмы и меток осей.
-plt.title('Degree of numbers', fontsize=24)
+plt.title(f'Degree of numbers ({get_y})', fontsize=24)
 plt.xlabel('Value', fontsize=14)
 plt.ylabel('Degree of values', fontsize=14)
 
