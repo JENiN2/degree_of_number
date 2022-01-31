@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
-input_values = [1, 2, 3, 4, 5]
-squares = [1, 4, 9, 16, 25]
-plt.plot(input_values, squares, linewidth=5)
+x_values = [1, 2, 3, 4, 5]
+y_values = [1, 4, 9, 16, 25]
+plt.scatter(x_values, y_values, s=50)
 
 # Назначение заголовка диаграмы и меток осей.
 plt.title('Square numbers', fontsize=24)
